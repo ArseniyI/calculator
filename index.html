@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="site.js"></script>
+    <link rel="stylesheet" href="main.css"> 
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <input type="text" value="0" id="expression" onchange="calculate()"/>
+    =
+    <span id="result">0</span></br>
+    <input type="button" value="1" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="2" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="3" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="4" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="5" class="digit" onclick="buttonClick(this)"/></br>
+    <input type="button" value="6" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="7" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="8" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="9" class="digit" onclick="buttonClick(this)"/>
+    <input type="button" value="0" class="digit" onclick="buttonClick(this)"/></br>
+    <input type="button" value="+" class="operation" onclick="buttonClick(this)"/>
+    <input type="button" value="-" class="operation" onclick="buttonClick(this)"/>
+    <input type="button" value="*" class="operation" onclick="buttonClick(this)"/>
+    <input type="button" value="/" class="operation" onclick="buttonClick(this)"/>
+    <input type="button" value="." class="digit" onclick="buttonClick(this)"/></br>
+    <input type="button" value="(" class="operation" onclick="buttonClick(this)"/>
+    <input type="button" value=")" class="operation" onclick="buttonClick(this)"/>
+    <input type="button" value="CE" class="clear" onclick="buttonClearAll()"/>
+    <input type="button" value="&lt;-" class="clear" onclick="buttonBackspace()"/>
+</body>
+</html>

@@ -1,0 +1,25 @@
+#expression{
+    text-align: right;
+    border: solid 1px orange;
+}
+.digit{
+    background-color: orange;
+    width: 25px;
+    height: 25px;
+}
+.operation{
+    background-color: blue;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+.clear{
+    background-color: red;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+h1{
+    color: green;
+    font-size: 26px;
+}
